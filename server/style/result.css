@@ -1,0 +1,41 @@
+.modal__form{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    padding:32px;
+}
+
+.company__description{
+    height: 60px;
+    width: 950px;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:0.5rem auto;
+    border-radius: 4px;
+}
+
+.add__jobs{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0 auto;
+}
+
+.add__button{
+    width: 50px;
+    margin-left:1160px;
+    margin-top:16px;
+}
+
+.addjobs__modal{
+    width: 400px;
+    padding: 1rem;
+}
+
+input,textarea{
+    border: none;
+    outline: none;
+}

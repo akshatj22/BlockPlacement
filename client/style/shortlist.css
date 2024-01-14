@@ -1,0 +1,12 @@
+.shortlist__title{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    color:white;
+}
+
+.table{
+    background-color: aqua;
+}

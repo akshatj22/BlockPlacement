@@ -1,0 +1,55 @@
+.verification__info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60%;
+        height: 60px;
+        border-radius: 4px;
+        background-color: #0f172a;
+        color: white;
+        margin:1.5rem auto;
+    
+}
+/* .full__page{
+    background-color: #0f172a;
+} */
+
+.student__details{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ gap:140px;
+}
+
+.verification__status{
+    font-size:3rem;
+    color:black;
+    margin-left:320px;
+}
+
+.verification__modal{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+}
+
+.verification__resume{
+    width: 350px;
+    height: 500px;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin-top: 24px;
+}
+
+
+
+.verification__form{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    margin-top: 32px;
+    margin-left: 64px;
+}

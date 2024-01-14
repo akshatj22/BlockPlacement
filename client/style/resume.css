@@ -1,0 +1,94 @@
+.resume__page{
+    max-width: 880px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(140,125,140,1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(140,125,140,1);
+    box-shadow: 0px 0px 30px 0px rgba(140,125,140,1);
+    height: 1080px;
+    flex:1;
+    position: static;
+    background-color: white;
+}
+
+.resume__structure{
+    display: flex;
+    flex-direction: row;
+}
+
+.resume__personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A59BF;
+    max-height: 108px;
+    width: 100%;
+}
+
+.person__name{
+    display: flex;
+    flex-direction: row;
+}
+
+.resume__education{
+    display: flex;
+    justify-content: center;
+    background-color:#CDBDDE;
+    margin-top: 16px;
+}
+
+.education__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.individual__education{
+    width: 380px;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: #EFF2F9;
+
+}
+
+.contact__section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 64px;
+    gap:32px;
+}
+
+.contact__item{
+    display: flex;
+    flex-direction: row;
+    margin-left:16px;
+}
+
+
+
+
+@media(max-width:988px){
+    .resume__structure{
+        flex-direction: column-reverse;
+    }
+
+    .resume__components{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .resume__page{
+        height: 1200px;
+    }
+
+  
+}
